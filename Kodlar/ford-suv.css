@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 10px;
+}
+
+body {
+
+    font-family: Arial, sans-serif;
+
+}
+
+
+.container {
+
+    height: 1080px;
+}
+
+.box-area {
+    width: 100%;
+    height: 100%;
+
+    margin: auto;
+    padding-top: 3rem;
+}
+
+.mustang-box {
+    background-image: url(images/mustangmanset.webp);
+    background-position: center;
+    background-size: cover;
+    width: 750px;
+    height: 350px;
+
+    margin: auto;
+    border: 2px solid black;
+    margin-bottom: 1rem;
+
+}
+
+.other-box {
+    padding: 2rem;
+    width: 100%;
+    height: 450px;
+    margin: auto;
+    display: flex;
+
+}
+
+.kuga-box {
+    background-image: url(images/kugamansetiki.webp);
+    background-position: center;
+    background-size: cover;
+    margin-right: 2rem;
+    width: 50%;
+    height: 100%;
+    background-color: gray;
+    border: 1px solid black;
+}
+
+.puma-box {
+    background-image: url(images/pumamanset.webp);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.mustang-yazi {
+
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.kuga-yazi {
+
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.puma-yazi {
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.kuga-box:hover {
+    transform: scale(1.2);
+}
+
+.puma-box:hover {
+    transform: scale(1.2);
+}
+
+.mustang-box:hover {
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:1000px) {
+
+    .mustang-box {
+        width: 100%;
+    }
+
+    .other-box {
+        flex-direction: column;
+
+    }
+
+    .kuga-box {
+        width: 100%;
+
+    }
+
+    .puma-box {
+        width: 100%;
+        margin-top: 1rem;
+
+    }
+}
+
+footer {
+    margin-top: 50px;
+    padding-top: 25px;
+    width: 100%;
+    display: flex;
+    background-color: #020947;
+}
+
+.footer-model {
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+}
+
+.footer-hakkinda {
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+}
+
+.sosyal-medya {
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+}
+
+.footer-list {
+    margin-top: 15px;
+    list-style: none;
+}
+
+.footer-list a {
+    color: #fff;
+}
+
+footer h4 {
+    margin-left: 20px;
+    color: #fff;
+}
+
+.sosyal-list li {
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.sosyal-buton {
+    padding: 5px;
+    font-size: 25px;
+    color: #00095b;
+    border-color: white;
+    border-radius: 50%;
+
+}
+
+@media screen and (max-width:550px) {
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+@media screen and(max-width:600px) {
+    .teknik-col {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+.navbar {
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Nunito', sans-serif;
+    z-index: 1000;
+}
+
+.navbar a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+
+}

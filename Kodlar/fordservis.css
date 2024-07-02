@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-link {
+    letter-spacing: 3px;
+    font-family: "Nunito", sans-serif;
+    color: #010746;
+}
+
+.nav-link:hover {
+    color: #0dc6d1;
+    border-bottom: 1.5px solid #1C6EA4;
+}
+
+footer {
+    margin-top: 50px;
+    padding-top: 25px;
+    width: 100%;
+    display: flex;
+    background-color: #020947;
+}
+
+.footer-model {
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+}
+
+.footer-hakkinda {
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+}
+
+.sosyal-medya {
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+}
+
+.footer-list {
+    margin-top: 15px;
+    list-style: none;
+}
+
+.footer-list a {
+    color: #fff;
+}
+
+footer h4 {
+    margin-left: 20px;
+    color: #fff;
+}
+
+.sosyal-list li {
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.sosyal-buton {
+    padding: 5px;
+    font-size: 25px;
+    color: #00095b;
+    border-color: white;
+    border-radius: 50%;
+
+}
+
+@media screen and (max-width:550px) {
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+.header {
+    width: 100%;
+    background-color: #00095b;
+    height: 80px;
+    text-align: center;
+
+
+}
+
+.header-text {
+    font-size: 50px;
+    color: #fff;
+}
+
+
+.bakim-box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+
+}
+
+.bakim-image-box {
+ 
+    width: 50%;
+}
+
+.image-box{
+    float: right;
+    width: 75%;
+}
+
+.bakim-text {
+    width: 50%;
+    padding: 15px;
+    
+}
+
+.bakim-galeri{
+
+    margin-top: 150px;
+
+}
+
+.card{
+    
+    margin-right: 15px;
+}
+
+.buton-container{
+height: 350px;
+margin-top: 150px;
+}
+
+.buton-container{
+    text-align: center;
+}
+
+.buton-container button{
+    margin-top: 50px;
+    margin-right: 15px;
+}
+
+.buton-container h3{
+    font-size: 55px;
+}
+
+.buton-container button{
+    width: 200px;
+    height: 80px;
+    background-color: #00095b;
+    border: 1px solid black;
+    color: #fff;
+   
+}
+
+button:hover{
+    background-color: #000e91;
+}
+
+
+@media screen and (min-width:600px) and (max-width:900px){
+    .bakim-image-box {
+ 
+        width: 50%;
+    }
+    
+    .image-box{
+        float: right;
+        width: 100%;
+    }
+
+    .header-text{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:600px){
+    
+    .image-box{
+        height: 80%;
+        width: 100%;
+    }
+    .header-text{
+        font-size: 25px;
+    }
+
+    .buton-container button{
+
+        margin-right: 15px;
+    }
+
+    .buton-container{
+        height: 550px;
+        margin-top: 150px;
+        }
+}

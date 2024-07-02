@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="fop-framework.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .nav-link {
+      letter-spacing: 3px;
+      font-family: "Nunito", sans-serif;
+      color: #010746;
+    }
+
+    .nav-link:hover {
+      color: #0dc6d1;
+      border-bottom: 1.5px solid #1C6EA4;
+    }
+  </style>
+
+
+  <title>Bilgi Talep Formu</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg  bg-transparent ">
+    <div class="container-fluid ">
+      <a href="Ford.html"><img src="images/logo (2).png" alt="Logo" width="100" class=""></a>
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse  justify-content-center " id="navbarNavAltMarkup">
+        <div class="navbar-nav ">
+          <a class="nav-link me-5" aria-current="page" href="model.html">Modeller</a>
+          <a class="nav-link me-5" href="elektrikliarac.html">Elektrikli Araçlar</a>
+          <a class="nav-link me-5" href="kampanya.html">Kampanya ve Finansal Hizmetler</a>
+          <a class="nav-link me-5 " href="fordservis.html">Ford Sahipleri</a>
+          <a class="nav-link me-5 " href="destek.html">Destek</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="tesisicerik">
+    <baslik>Bilgi Talep Formu</baslik><br>
+    <hr><br>
+  </div><br>
+  <div class="contact">
+    <form class="" method="post">
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="Ad">Ad</label> <!--Textbox kısmının olduğu yer-->
+          <input type="input" class="form-control" name="Ad" placeholder="Ad" />
+        </div>
+        <div class="form-group col-md-6">
+          <label for="Soyad">Soyad</label> <!--Textbox kısmının olduğu yer-->
+          <input type="input" class="form-control" name="Soyad" placeholder="Soyad" />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="Email">Email</label> <!--Textbox kısmının olduğu yer-->
+          <input type="email" class="form-control" name="Email" placeholder="Email" />
+        </div>
+        <div class="form-group col-md-6">
+          <label for="Telefon">Telefon</label>
+          <input type="Telefon" class="form-control" name="Telefon" placeholder="Telefon" />
+        </div>
+      </div>
+      <div class="form-group ">
+        <label for="inputAraba">Bilgi Almak İstediğiniz Araba</label>
+        <!--Birden fazla seçenek için aşagıya doğru açılan seçenekler-->
+        <select class="form-select" aria-label="Default select example" name="ArabaId" required>
+
+          <option value="">Seçiniz</option>
+
+
+        </select>
+      </div> <br>
+      <br>
+      <button type="submit" class="btn btn-primary p-4" style="width: 10%;font-size: 1.2rem;">Gönder</button>
+    </form>
+  </div>
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <script>
+    // Sayfa yüklendiğinde
+    document.addEventListener('DOMContentLoaded', function () {
+      // AJAX isteği
+      var xhr = new XMLHttpRequest();
+      xhr.open('GET', 'https://localhost:44315/api/ArabaControllers/GetCars', true);
+
+      // İstek tamamlandığında
+      xhr.onload = function () {
+        if (xhr.status >= 200 && xhr.status < 300) {
+          // Başarılı cevap alındığında JSON'u parçala
+          var response = JSON.parse(xhr.responseText);
+          console.log(response);
+
+          // Seçenekleri doldur
+          var selectElement = document.querySelector('select[name="ArabaId"]');
+          response.forEach(function (model) {
+            var option = document.createElement('option');
+            option.value = model.arabaId;
+            option.textContent = model.arabaModel;
+            selectElement.appendChild(option);
+          });
+        } else {
+          // Hata durumunda kullanıcıya bilgi ver
+          console.error('API isteği başarısız. Hata kodu: ' + xhr.status);
+        }
+      };
+
+      // Hata durumunda
+      xhr.onerror = function () {
+        console.error('API isteği yapılamadı.');
+      };
+
+      // İstek gönder
+      xhr.send();
+    });
+  </script>
+
+  <script>
+    // Form elemanlarını seçme
+    const form = document.querySelector('form');
+
+    // Form gönderildiğinde tetiklenecek fonksiyon
+    form.addEventListener('submit', async (event) => {
+      // Sayfanın yenilenmesini engelleme
+      event.preventDefault();
+
+      // Form verilerini toplama
+      const formData = new FormData(form);
+
+      // Form verilerini JSON formatına dönüştürme
+      const jsonData = {};
+      formData.forEach((value, key) => {
+        jsonData[key] = value;
+      });
+      console.log(jsonData);
+      // POST isteği için ayarlar
+      const url = 'https://localhost:44315/api/Destek/AddBilgi'; // İstek atılacak URL
+      const options = {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(jsonData), // Form verilerini JSON formatında gönderme
+      };
+
+      try {
+        // İstek gönderme
+        const response = await fetch(url, options);
+
+        // İstek başarılı ise
+        if (response.ok) {
+          console.log('İstek başarıyla gönderildi.');
+          alert("Size En Kısa Sürede Dönüş Yapacağız!")
+          // İstek sonucunu alabilirsiniz, örneğin:
+          // const result = await response.json();
+        } else {
+          console.error('İstek başarısız.');
+        }
+      } catch (error) {
+        alert('İstek gönderilirken hata oluştu:', error);
+
+      }
+    });
+
+
+  </script>
+
+</body>
+
+</html>

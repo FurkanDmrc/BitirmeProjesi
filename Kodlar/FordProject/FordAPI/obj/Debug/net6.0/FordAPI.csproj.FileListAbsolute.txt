@@ -1,0 +1,136 @@
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\appsettings.json
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\FordAPI.exe
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\FordAPI.deps.json
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\FordAPI.runtimeconfig.json
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\FordAPI.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\FordAPI.pdb
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\obj\Debug\net6.0\FordAPI.csproj.AssemblyReference.cache
+C:\Users\furka\Desktop\FordProject\FordAPI\obj\Debug\net6.0\FordAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\furka\Desktop\FordProject\FordAPI\obj\Debug\net6.0\FordAPI.AssemblyInfoInputs.cache
+C:\Users\furka\Desktop\FordProject\FordAPI\obj\Debug\net6.0\FordAPI.AssemblyInfo.cs
+C:\Users\furka\Desktop\FordProject\FordAPI\obj\Debug\net6.0\FordAPI.csproj.CoreCompileInputs.cache
+C:\Users\furka\Desktop\FordProject\FordAPI\obj\Debug\net6.0\FordAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\furka\Desktop\FordProject\FordAPI\obj\Debug\net6.0\FordAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\furka\Desktop\FordProject\FordAPI\obj\Debug\net6.0\staticwebassets\msbuild.FordAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\furka\Desktop\FordProject\FordAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.FordAPI.props
+C:\Users\furka\Desktop\FordProject\FordAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.FordAPI.props
+C:\Users\furka\Desktop\FordProject\FordAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.FordAPI.props
+C:\Users\furka\Desktop\FordProject\FordAPI\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\furka\Desktop\FordProject\FordAPI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\furka\Desktop\FordProject\FordAPI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\furka\Desktop\FordProject\FordAPI\obj\Debug\net6.0\scopedcss\bundle\FordAPI.styles.css
+C:\Users\furka\Desktop\FordProject\FordAPI\obj\Debug\net6.0\FordAPI.csproj.CopyComplete
+C:\Users\furka\Desktop\FordProject\FordAPI\obj\Debug\net6.0\FordAPI.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\obj\Debug\net6.0\refint\FordAPI.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\obj\Debug\net6.0\FordAPI.pdb
+C:\Users\furka\Desktop\FordProject\FordAPI\obj\Debug\net6.0\FordAPI.genruntimeconfig.cache
+C:\Users\furka\Desktop\FordProject\FordAPI\obj\Debug\net6.0\ref\FordAPI.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\Humanizer.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\furka\Desktop\FordProject\FordAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\obj\Debug\net6.0\FordAPI.csproj.AssemblyReference.cache
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\obj\Debug\net6.0\FordAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\obj\Debug\net6.0\FordAPI.AssemblyInfoInputs.cache
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\obj\Debug\net6.0\FordAPI.AssemblyInfo.cs
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\obj\Debug\net6.0\FordAPI.csproj.CoreCompileInputs.cache
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\obj\Debug\net6.0\FordAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\obj\Debug\net6.0\FordAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\appsettings.json
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\FordAPI.exe
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\FordAPI.deps.json
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\FordAPI.runtimeconfig.json
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\FordAPI.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\FordAPI.pdb
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\Humanizer.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\obj\Debug\net6.0\staticwebassets\msbuild.FordAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.FordAPI.props
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.FordAPI.props
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.FordAPI.props
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\obj\Debug\net6.0\scopedcss\bundle\FordAPI.styles.css
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\obj\Debug\net6.0\FordAPI.csproj.CopyComplete
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\obj\Debug\net6.0\FordAPI.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\obj\Debug\net6.0\refint\FordAPI.dll
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\obj\Debug\net6.0\FordAPI.pdb
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\obj\Debug\net6.0\FordAPI.genruntimeconfig.cache
+C:\Users\furka\Desktop\Ford Proje\FordProject\FordAPI\obj\Debug\net6.0\ref\FordAPI.dll

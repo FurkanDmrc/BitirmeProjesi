@@ -1,0 +1,403 @@
+.nav-link {
+    letter-spacing: 3px;
+    font-family: "Nunito", sans-serif;
+    color: #010746;
+
+}
+
+.nav-link:hover {
+    color: #0dc6d1;
+    border-bottom: 1.5px solid #1C6EA4;
+}
+
+
+
+.carousel-item {
+    width: 100%;
+
+}
+
+.carousel-yazi {
+    width: 600px;
+    height: 250px;
+
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 150px;
+}
+
+.carousel-text {
+    font-size: 45px;
+    color: #fff;
+    font-weight: 700;
+}
+
+@media screen and (min-width:700px) and (max-width:1200px) {
+
+    .carousel-yazi {
+        width: 600px;
+        height: 250px;
+
+        position: absolute;
+        margin-left: 150px;
+        margin-top: 150px;
+    }
+
+    .carousel-text {
+        font-size: 35px;
+        color: #fff;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width:700px) {
+
+    .carousel-yazi {
+        width: 600px;
+        height: 250px;
+
+        position: absolute;
+        margin-left: 75px;
+        margin-top: 150px;
+    }
+
+    .carousel-text {
+        font-size: 35px;
+        color: #fff;
+        font-weight: 700;
+    }
+
+    .konteyner {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        
+        padding: 5px;
+
+    }
+
+    .konteyner .card-1 {
+        width: 100%;
+        height: 750px;
+        border: 3px solid black;
+        background-image: url(images/focusdort.jpeg);
+        background-position: center;
+        background-size: cover;
+        transition: all 1.2s;
+
+
+    }
+
+    .konteyner .card-2 {
+        width: 100%;
+        height: 750px;
+        border: 3px solid black;
+        background-image: url(images/kugablack.webp);
+        background-position: center;
+        background-size: cover;
+        transition: all 1.2s;
+
+    }
+
+    .konteyner .card-3 {
+        width: 100%;
+        height: 750px;
+        border: 3px solid black;
+        background-image: url(images/Courier.jpg);
+        background-position: center;
+        background-size: cover;
+        transition: all 1.2s;
+
+    }
+
+}
+
+@media screen and (max-width:600px) {
+
+    .carousel-yazi {
+        display: none;
+    }
+
+}
+
+
+.carousel-buton {
+    width: 150px;
+    height: 50px;
+    margin-left: 15px;
+    background-color: #00095b;
+    border-radius: 15px;
+    border: 1px solid #00095b;
+
+}
+
+.carousel-buton:hover {
+    background-color: #0212a0;
+}
+
+.carousel-buton a {
+    color: #fff;
+}
+
+.carousel-buton a:hover {
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+
+.btn {
+    vertical-align: middle;
+    width: 100px;
+    background-color: #00095b;
+    border: 0;
+    border-radius: 35px;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn:hover {
+
+    transition: transform .3s ease-in-out;
+    transform: translateY(-5px);
+
+}
+
+.card-title {
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.card:hover {
+    -webkit-box-shadow: 0px 37px 24px -22px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 37px 24px -22px rgba(0, 0, 0, 1);
+    box-shadow: 0px 37px 24px -22px rgba(0, 0, 0, 1);
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.konteyner {
+    width: 100%;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    
+    padding: 5px;
+
+}
+
+.card-1 {
+    width: 33%;
+    height: 750px;
+    border: 3px solid black;
+    background-image: url(images/focusdort.jpeg);
+    background-position: center;
+    background-size: cover;
+    transition: all 1.2s;
+
+
+}
+
+.card-2 {
+    width: 33%;
+    height: 750px;
+    border: 3px solid black;
+    background-image: url(images/kugablack.webp);
+    background-position: center;
+    background-size: cover;
+    transition: all 1.2s;
+
+}
+
+.card-3 {
+    width: 33%;
+    height: 750px;
+    border: 3px solid black;
+    background-image: url(images/Courier.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: all 1.2s;
+
+}
+
+.konteyner .cards {
+    margin-right: 5px;
+    /*margin-right değeri vardı*/
+}
+
+.card-1:hover {
+    cursor: pointer;
+    color: #0dc7d15b;
+    background-image: url(images/fiestastkapak.jpeg);
+    background-position: center;
+    background-size: cover;
+    transition: all 1.2s;
+    scale: 1.2x;
+    -webkit-box-shadow: 0px 20px 43px -4px rgba(0, 39, 138, 1);
+    -moz-box-shadow: 0px 20px 43px -4px rgba(0, 39, 138, 1);
+    box-shadow: 0px 20px 43px -4px rgba(0, 39, 138, 1);
+    transform: translateY(-10px);
+
+}
+
+.card-2:hover {
+    cursor: pointer;
+    color: #0dc7d15b;
+    background-image: url(images/Mustanguc.webp);
+    background-position: center;
+    background-size: cover;
+    transition: all 1.2s;
+    -webkit-box-shadow: 0px 20px 43px -4px rgba(252, 0, 0, 1);
+    -moz-box-shadow: 0px 20px 43px -4px rgba(252, 0, 0, 1);
+    box-shadow: 0px 20px 43px -4px rgba(252, 0, 0, 1);
+    transform: translateY(-10px);
+}
+
+.card-3:hover {
+    cursor: pointer;
+    color: #0dc7d15b;
+    background-image: url(images/etransit.png);
+    background-position: center;
+    background-size: cover;
+    transition: all 1.2s;
+    -webkit-box-shadow: 0px 20px 43px -4px rgba(40, 110, 0, 1);
+    -moz-box-shadow: 0px 20px 43px -4px rgba(40, 110, 0, 1);
+    box-shadow: 0px 20px 43px -4px rgba(40, 110, 0, 1);
+    transform: translateY(-10px);
+
+}
+
+
+
+.cards .cards-text {
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 50px;
+    color: #00095b;
+    font-weight: 700;
+    position: relative;
+    visibility: hidden;
+    transition: ease-in 1s;
+
+
+}
+
+.cards:hover .cards-text {
+    transform: translateY(100px);
+    visibility: visible;
+
+}
+
+.col-12 {
+    width: 100%;
+}
+
+footer {
+    margin-top: 50px;
+    padding-top: 25px;
+    width: 100%;
+    display: flex;
+    background-color: #020947;
+}
+
+.footer-model {
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+}
+
+.footer-hakkinda {
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+}
+
+.sosyal-medya {
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+}
+
+.footer-list {
+    margin-top: 15px;
+    list-style: none;
+}
+
+.footer-list a {
+    color: #fff;
+}
+
+footer h4 {
+    margin-left: 25px;
+    color: #fff;
+}
+
+.sosyal-buton {
+    padding: 5px;
+    font-size: 25px;
+    color: #00095b;
+    border-color: white;
+    border-radius: 50%;
+
+}
+
+.sosyal-list li {
+    margin-right: 15px;
+    display: inline-block;
+}
+
+@media screen and (max-width:550px) {
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-container .card {
+        width: 300px;
+
+    }
+}
+
+
+.card-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-container .card {
+    width: 550px;
+    margin-right: 15px;
+}

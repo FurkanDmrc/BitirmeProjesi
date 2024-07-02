@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FordModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="C__EFMigrationsHistory">
+    <Key>
+      <PropertyRef Name="MigrationId" />
+    </Key>
+    <Property Name="MigrationId" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ProductVersion" Type="String" MaxLength="32" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Araba">
+    <Key>
+      <PropertyRef Name="ArabaId" />
+    </Key>
+    <Property Name="ArabaId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ArabaModel" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Destek" Relationship="Self.FK_Destek_Araba" FromRole="Araba" ToRole="Destek" />
+    <NavigationProperty Name="Servis" Relationship="Self.FK_Servis_Araba" FromRole="Araba" ToRole="Servis" />
+  </EntityType>
+  <EntityType Name="Destek">
+    <Key>
+      <PropertyRef Name="MusteriId" />
+    </Key>
+    <Property Name="MusteriId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ad" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Soyad" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Telefon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ArabaId" Type="Int32" />
+    <NavigationProperty Name="Araba" Relationship="Self.FK_Destek_Araba" FromRole="Destek" ToRole="Araba" />
+  </EntityType>
+  <EntityType Name="Servis">
+    <Key>
+      <PropertyRef Name="MusteriId" />
+    </Key>
+    <Property Name="MusteriId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Ad" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Soyad" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Telefon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ArabaId" Type="Int32" />
+    <NavigationProperty Name="Araba" Relationship="Self.FK_Servis_Araba" FromRole="Servis" ToRole="Araba" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_Destek_Araba">
+    <End Role="Araba" Type="Self.Araba" Multiplicity="0..1" />
+    <End Role="Destek" Type="Self.Destek" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Araba">
+        <PropertyRef Name="ArabaId" />
+      </Principal>
+      <Dependent Role="Destek">
+        <PropertyRef Name="ArabaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Servis_Araba">
+    <End Role="Araba" Type="Self.Araba" Multiplicity="0..1" />
+    <End Role="Servis" Type="Self.Servis" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Araba">
+        <PropertyRef Name="ArabaId" />
+      </Principal>
+      <Dependent Role="Servis">
+        <PropertyRef Name="ArabaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="FordEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="C__EFMigrationsHistory" EntityType="Self.C__EFMigrationsHistory" />
+    <EntitySet Name="Araba" EntityType="Self.Araba" />
+    <EntitySet Name="Destek" EntityType="Self.Destek" />
+    <EntitySet Name="Servis" EntityType="Self.Servis" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <AssociationSet Name="FK_Destek_Araba" Association="Self.FK_Destek_Araba">
+      <End Role="Araba" EntitySet="Araba" />
+      <End Role="Destek" EntitySet="Destek" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Servis_Araba" Association="Self.FK_Servis_Araba">
+      <End Role="Araba" EntitySet="Araba" />
+      <End Role="Servis" EntitySet="Servis" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

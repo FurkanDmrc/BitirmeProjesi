@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+.kapak-box {
+    width: 100%;
+    height: 750px;
+    background-color: red;
+
+}
+
+.nav-link {
+    letter-spacing: 3px;
+    font-family: "Nunito", sans-serif;
+    color: #010746;
+}
+
+.nav-link:hover {
+    color: #0dc6d1;
+    border-bottom: 1.5px solid #1C6EA4;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.image-kapak-box {
+    width: 100%;
+    height: 100%;
+}
+
+.text-box {
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.text-baslik {
+    color: rgb(2, 2, 83);
+    font-family: "Albert Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.text-metin {
+    font-family: "Albert Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.info-baslik {
+    font-family: "Albert Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.info-text {
+    font-family: "Albert Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.card-baslik {
+    color: rgb(2, 2, 83);
+    font-family: "Albert Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+
+.info-box {
+    width: 100%;
+    height: 450px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.info-image-box {
+    width: 50%;
+    height: 100%;
+
+}
+
+.image-box {
+    width: 70%;
+    height: 100%;
+    background-color: navy;
+    float: right;
+}
+
+.info-text-box {
+    width: 50%;
+    height: 100%;
+    padding: 25px;
+}
+
+.card-box {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #00095b;
+    width: 200px;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Albert Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.card {
+    margin-right: 15px;
+}
+
+.alt-info-box {
+    width: 100%;
+    height: 450px;
+
+    margin-top: 50px;
+    display: flex;
+}
+
+.alt-info-image-box {
+    width: 50%;
+    height: 100%;
+
+}
+
+.alt-image-box {
+    width: 70%;
+    height: 100%;
+
+    float: right;
+}
+
+.alt-info-text-box {
+    width: 50%;
+    height: 100%;
+    padding: 25px;
+    text-align: center;
+}
+
+.float-left {
+    float: left;
+}
+
+.uzak-bottom {
+    margin-bottom: 50px;
+}
+
+.alt-text {
+    font-size: 25px;
+    font-family: "Albert Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+@media screen and (max-width:600px) {
+    .alt-text {
+        font-size: 13px;
+
+    }
+
+    .btn {
+        width: 130px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Albert Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 10px;
+    }
+
+    .info-text-box {
+        width: 50%;
+        height: 100%;
+        padding: 5px;
+    }
+
+    .info-text {
+        font-size: 13px;
+    }
+
+    .image-box {
+        width: 100%;
+        height: 100%;
+        background-color: navy;
+        float: right;
+    }
+
+    .alt-image-box {
+        width: 100%;
+    }
+
+}
+
+
+
+@media screen and (min-width:600px) and (max-width:768px) {
+    .alt-text {
+        font-size: 18px;
+
+    }
+
+    .alt-info-text-box {
+        width: 50%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .alt-image-box {
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .alt-text {
+        font-size: 18px;
+
+    }
+
+    .alt-image-box {
+        width: 100%;
+    }
+
+    .image-kapak-box {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+footer {
+    margin-top: 50px;
+    padding-top: 25px;
+    width: 100%;
+    display: flex;
+    background-color: #020947;
+}
+
+.footer-model {
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+}
+
+.footer-hakkinda {
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+}
+
+.sosyal-medya {
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+}
+
+.footer-list {
+    margin-top: 15px;
+    list-style: none;
+}
+
+.footer-list a {
+    color: #fff;
+}
+
+footer h4 {
+    margin-left: 20px;
+    color: #fff;
+}
+
+.sosyal-list li {
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.sosyal-buton {
+    padding: 5px;
+    font-size: 25px;
+    color: #00095b;
+    border-color: white;
+    border-radius: 50%;
+
+}
+
+@media screen and (max-width:550px) {
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ford Otomobil</title>
+  <link rel="stylesheet" href="fop-framework.min.css">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <style>
+    footer {
+      margin-top: 50px;
+      padding-top: 25px;
+      width: 100%;
+      display: flex;
+      background-color: #020947;
+    }
+
+    .footer-model {
+      padding: 15px;
+      text-align: center;
+      width: 30%;
+    }
+
+    .footer-hakkinda {
+      padding: 15px;
+      text-align: center;
+      width: 30%;
+    }
+
+    .sosyal-medya {
+      padding: 15px;
+      text-align: center;
+      width: 30%;
+    }
+
+    .footer-list {
+      margin-top: 15px;
+      list-style: none;
+    }
+
+    .footer-list a {
+      color: #fff;
+    }
+
+    footer h4 {
+      margin-left: 20px;
+      color: #fff;
+    }
+
+    .sosyal-list li {
+      margin-right: 15px;
+      display: inline-block;
+    }
+
+    .sosyal-buton {
+      padding: 5px;
+      font-size: 25px;
+      color: #00095b;
+      border-color: white;
+      border-radius: 50%;
+
+    }
+
+    @media screen and (max-width:550px) {
+
+      footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+    }
+
+    .facebook {
+
+      background-color: rgba(240, 248, 255, 0.719);
+      border: 1px solid black;
+      color: rgb(0, 102, 255);
+    }
+
+    .twitter {
+      color: rgb(0, 0, 0);
+      background-color: rgba(240, 248, 255, 0.719);
+      border: 0;
+
+    }
+
+    .linkedin {
+
+      background-color: rgba(240, 248, 255, 0.719);
+      border: 1px solid black;
+      color: navy;
+    }
+
+    .instagram {
+
+      background-color: rgba(240, 248, 255, 0.466);
+      border: 1px solid rgb(255, 0, 43);
+    }
+
+
+
+
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .container {
+      padding: 25px;
+      background-color: rgba(128, 128, 128, 0.192);
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+    }
+
+    .image-box {
+      display: flex;
+      width: 550px;
+      height: 450px;
+
+      margin-top: 50px;
+
+      justify-content: center;
+      align-items: center;
+    }
+
+
+    .text-box {
+      width: 550px;
+      height: 450px;
+      margin-left: 15px;
+      text-align: center;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+      font-weight: 100;
+      margin-top: 50px;
+      border-radius: 15px;
+      font-family: "Inria Sans", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      line-height: 35px;
+
+    }
+
+    .text-box h2 {
+      margin-bottom: 15px;
+      color: #010746;
+    }
+
+
+    .image-box a {
+      font-size: 50px;
+      position: absolute;
+      text-decoration: none;
+      color: white;
+      font-family: "Inria Sans", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      letter-spacing: 15px;
+      opacity: 0.75;
+    }
+
+
+
+
+
+
+
+    @media only screen and (max-width: 600px) {
+
+      .container {
+        display: block;
+        width: 100%;
+      }
+
+
+      .image-box {
+        display: flex;
+        width: 100%;
+        height: 450px;
+
+        margin-top: 50px;
+
+        justify-content: center;
+        align-items: center;
+      }
+
+
+      .text-box {
+        width: 100%;
+        height: 450px;
+        margin-left: 15px;
+        text-align: center;
+        padding: 15px;
+        font-family: Arial, sans-serif;
+        font-weight: 100;
+        margin-top: 50px;
+        border-radius: 15px;
+        font-family: "Inria Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 35px;
+
+      }
+
+
+      .image-box a {
+        font-size: 25px;
+        position: absolute;
+        text-decoration: none;
+        color: white;
+        font-family: "Inria Sans", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: 15px;
+        opacity: 0.75;
+      }
+    }
+
+
+
+    @media only screen and (min-width: 600px) {
+      .image-box a {
+        font-size: 25px;
+        position: absolute;
+        text-decoration: none;
+        color: white;
+        font-family: "Inria Sans", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: 12px;
+        opacity: 0.75;
+      }
+
+      .text-box {
+        width: 550px;
+        height: 450px;
+        margin-left: 15px;
+        text-align: center;
+        padding: 15px;
+        font-family: Arial, sans-serif;
+        font-weight: 100;
+        margin-top: 50px;
+        border-radius: 15px;
+        font-family: "Inria Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 30px;
+
+      }
+
+    }
+
+
+    @media only screen and (min-width: 768px) {
+
+      .image-box a {
+        font-size: 35px;
+        position: absolute;
+        text-decoration: none;
+        color: white;
+        font-family: "Inria Sans", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: 15px;
+        opacity: 0.75;
+      }
+    }
+
+
+    @media only screen and (min-width: 1200px) {
+
+      .image-box a {
+        font-size: 50px;
+        position: absolute;
+        text-decoration: none;
+        color: white;
+        font-family: "Inria Sans", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: 15px;
+        opacity: 0.75;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="image-box">
+      <img src="images/focuskapak.webp" alt="" width="100%" height="100%" style="border-radius: 15px;">
+      <a href="FordFocus.html">Ford Focus</a>
+    </div>
+
+    <div class="text-box">
+      <h2>Ford Focus</h2>
+      <p>Ford Focus’un kusursuz özellikleriyle detayları farklı hissetmeye hazır olun.
+        Dış tasarımla gelen entegre sis lambalı çarpıcı LED farlar gibi şık öğeleri taşıyan farklı bir stil.
+        Co-Pilot 360 gibi gelecek nesil teknolojiler.
+        Focus EcoBoost Hibrit teknolojisiyle elektrikli sistemlerin verimli dünyasına ilk adımınızı atın. Amaca
+        yönelik olarak tasarlanan PowerShift çift kavramalı otomatik şanzımanla her sürüşün keyfini doyasıya
+        yaşayın.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="text-box">
+      <h2>Ford Fiesta</h2>
+      <p>Yeni tasarımı ve yenilikçi hafif Hibrit sürüşü ile Ford Fiesta, sürüş keyfi ve verimliliğin eşsiz bir
+        kombinasyonu ile sizi heyecanlandırmak için yarışıyor. Petek Izgara Optiklerindeki radyatör ızgarası ve yeni LED
+        farlar da dahil olmak üzere yenilenmiş Ön panel, dinamik görünümün altını çiziyor. Dijital gösterge paneli ve
+        Ford SYNC 33 8 inç dokunmatik ekran gibi modern teknolojiler en yüksek sürüş konforunu garanti eder.</p>
+    </div>
+    <div class="image-box">
+      <img src="images/fiestastkapak.jpeg" alt="" width="100%" height="100%" style="border-radius: 15px;">
+      <a href="FordFiesta.html">Ford Fiesta</a>
+    </div>
+
+  </div>
+
+
+  <footer>
+    <div class="footer-model">
+      <h4>MODELLER</h4>
+      <ul>
+        <li class="footer-list"><a href="otomobilsecim.html">Otomobiller</a></li>
+        <li class="footer-list"><a href="ford-suv.html">SUV</a></li>
+        <li class="footer-list"><a href="ticari-secim.html">Ticari Araçlar</a></li>
+        <li class="footer-list"><a href="">Elektrikli Araçlar</a></li>
+      </ul>
+    </div>
+    <div class="footer-hakkinda">
+      <h4>FORD HAKKINDA</h4>
+      <ul>
+        <li class="footer-list"><a href="kurumsal.html">Kurumsal</a></li>
+        <li class="footer-list"><a href="sürdürülebilirlik.html">Sürdürülebilirlik</a></li>
+        <li class="footer-list"><a href="wec.html">Ford Performans</a></li>
+      </ul>
+    </div>
+    <div class="sosyal-medya">
+      <h4>SOSYAL MEDYA</h4>
+      <ul class="sosyal-list">
+        <li class="footer-list"><a href="https://www.linkedin.com/company/ford-otosan/?originalSubdomain=tr"><button
+              class="sosyal-buton facebook"><i class="fa-brands fa-facebook  "></i></button></a></li>
+        <li class="footer-list"><a href=""><button class="sosyal-buton twitter"><i
+                class="fa-brands fa-x-twitter "></i></button></a>
+        </li>
+        <li class="footer-list"><a href="https://www.instagram.com/fordturkiye/" class="instagram-link "
+            style="color: rgb(255, 0, 43);"><button class="sosyal-buton instagram "><i
+                class="fa-brands fa-instagram"></i></a></button>
+        </li>
+        <li class="footer-list"><a href="https://www.linkedin.com/company/ford-otosan/?originalSubdomain=tr"><button
+              class="sosyal-buton linkedin"><i class="fa-brands fa-linkedin "></i></button></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>

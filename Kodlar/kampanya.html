@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="fop-framework.min.css">
+    <title>Ford Güncel Kampanyalar</title>
+
+    <style>
+        .nav-link {
+            letter-spacing: 3px;
+            font-family: "Nunito", sans-serif;
+            color: #010746;
+        }
+
+        .nav-link:hover {
+            color: #0dc6d1;
+            border-bottom: 1.5px solid #1C6EA4;
+        }
+
+        .kapak {
+            width: 100%;
+
+            background-color: red;
+        }
+
+        .accordion-item {
+            border-bottom: 1px solid rgb(0, 0, 80);
+        }
+
+        .accordion-body {
+            font-family: "Albert Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 25px;
+        }
+
+        .accordion-button {
+            font-size: 35px;
+            color: rgb(1, 1, 85);
+            font-family: "Albert Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding-top: 25px;
+            width: 100%;
+            display: flex;
+            background-color: #020947;
+        }
+
+        .footer-model {
+            padding: 15px;
+            text-align: center;
+            width: 30%;
+        }
+
+        .footer-hakkinda {
+            padding: 15px;
+            text-align: center;
+            width: 30%;
+        }
+
+        .sosyal-medya {
+            padding: 15px;
+            text-align: center;
+            width: 30%;
+        }
+
+        .footer-list {
+            margin-top: 15px;
+            list-style: none;
+        }
+
+        .footer-list a {
+            color: #fff;
+        }
+
+        footer h4 {
+            margin-left: 20px;
+            color: #fff;
+        }
+
+        .sosyal-list li {
+            margin-right: 15px;
+            display: inline-block;
+        }
+
+        .sosyal-buton {
+            padding: 5px;
+            font-size: 25px;
+            color: #00095b;
+            border-color: white;
+            border-radius: 50%;
+
+        }
+
+        @media screen and (max-width:550px) {
+
+            footer {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+        }
+
+        .facebook {
+
+            background-color: rgba(240, 248, 255, 0.719);
+            border: 1px solid black;
+            color: rgb(0, 102, 255);
+        }
+
+        .twitter {
+            color: rgb(0, 0, 0);
+            background-color: rgba(240, 248, 255, 0.719);
+            border: 0;
+
+        }
+
+        .linkedin {
+
+            background-color: rgba(240, 248, 255, 0.719);
+            border: 1px solid black;
+            color: navy;
+        }
+
+        .instagram {
+
+            background-color: rgba(240, 248, 255, 0.466);
+            border: 1px solid rgb(255, 0, 43);
+        }
+
+        @media screen and (min-width:700px) and (max-width:1100px){
+            .accordion-button{
+                font-size: 20px;
+            }
+        }
+
+        
+        @media screen and (max-width:700px) {
+            .accordion-button{
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg  bg-transparent ">
+        <div class="container-fluid ">
+            <a href="Ford.html"><img src="https://fof.ford.com.tr/Content/public/svg/logo/logo-ford.svg" alt="Logo"
+                    width="100" class=""></a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  justify-content-center " id="navbarNavAltMarkup">
+                <div class="navbar-nav ">
+                    <a class="nav-link me-5" aria-current="page" href="model.html">Modeller</a>
+                    <a class="nav-link me-5" href="elektrikliarac.html">Elektrikli Araçlar</a>
+                    <a class="nav-link me-5" href="kampanya.html">Kampanya ve Finansal Hizmetler</a>
+                    <a class="nav-link me-5 " href="fordservis.html">Ford Sahipleri</a>
+                    <a class="nav-link me-5 " href="destek.html">Destek</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="kapak">
+        <img src="images/fordkampanya.jpg" alt="" width="100%">
+    </div>
+
+    <div class="accordion accordion-flush mt-5 mb-5 p-5" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Geri Alım Garantisi ile ticaretin geleceği sizi bekliyor.
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body text-center">Elektriğin gücünü ve üstün performansı iş dünyasına taşıyan
+                    E-Transit’i %100
+                    Geri Alım Garantisi ile gönül rahatlığıyla deneyimleyebilirsiniz. Dilediğinizde aracınızı satın
+                    aldığınız tarihteki fatura bedelinin %100’ü karşılığında geri alım garantisinden
+                    faydalanabilirsiniz.
+
+                    Türkiye’nin ilk tamamen elektrikli hafif ticari aracı Ford E-Transit’i keşfedin, ticaretin
+                    geleceğinde yerinizi alın.
+                    <img src="images/gerialim.webp" alt="" width="75%" height="75%">
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header ">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Binek Araçlarda Bu Aya Özel Peşin Alım İndirimi Desteği
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body text-center">Ford yetkili satıcılarından satın alınacak 0 km binek araç
+                    alımlarında
+                    geçerli tavsiye edilen perakende satış fiyatına ek Kuga ve Focus modelleri için %4, Puma modelleri
+                    için %5 peşin alım indirimi desteği sağlanacaktır.
+                    <img src="images/binekkampanya.webp" alt="" width="75%" height="75%">
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item border-bottom">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Ticari Araçlarda Bu Aya Özel Peşin Alım İndirimi Desteği
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body text-center">Ford yetkili satıcılarından satın alınacak 0 km ticari araç
+                    alımlarında geçerli tavsiye edilen perakende satış fiyatına ek Transit modelleri* için %2, Custom,
+                    Courier, Ranger modelleri için %3 peşin alım indirimi desteği sağlanacaktır.
+                    <img src="images/ticarikampanya.webp" alt="" width="75%" height="75%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-model">
+            <h4>MODELLER</h4>
+            <ul>
+                <li class="footer-list"><a href="otomobilsecim.html">Otomobiller</a></li>
+                <li class="footer-list"><a href="ford-suv.html">SUV</a></li>
+                <li class="footer-list"><a href="ticari-secim.html">Ticari Araçlar</a></li>
+                <li class="footer-list"><a href="elektrikliarac.html">Elektrikli Araçlar</a></li>
+            </ul>
+        </div>
+        <div class="footer-hakkinda">
+            <h4>FORD HAKKINDA</h4>
+            <ul>
+                <li class="footer-list"><a href="kurumsal.html">Kurumsal</a></li>
+                <li class="footer-list"><a href="sürdürülebilirlik.html">Sürdürülebilirlik</a></li>
+                <li class="footer-list"><a href="wec.html">Ford Performans</a></li>
+            </ul>
+        </div>
+        <div class="sosyal-medya">
+            <h4>SOSYAL MEDYA</h4>
+            <ul class="sosyal-list">
+                <li class="footer-list"><a
+                        href="https://www.linkedin.com/company/ford-otosan/?originalSubdomain=tr"><button
+                            class="sosyal-buton facebook"><i class="fa-brands fa-facebook  "></i></button></a></li>
+                <li class="footer-list"><a href=""><button class="sosyal-buton twitter"><i
+                                class="fa-brands fa-x-twitter "></i></button></a>
+                </li>
+                <li class="footer-list"><a href="https://www.instagram.com/fordturkiye/" class="instagram-link "
+                        style="color: rgb(255, 0, 43);"><button class="sosyal-buton instagram "><i
+                                class="fa-brands fa-instagram"></i></a></button>
+                </li>
+                <li class="footer-list"><a
+                        href="https://www.linkedin.com/company/ford-otosan/?originalSubdomain=tr"><button
+                            class="sosyal-buton linkedin"><i class="fa-brands fa-linkedin "></i></button></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

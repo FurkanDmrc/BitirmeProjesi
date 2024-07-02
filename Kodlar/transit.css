@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.kapak {
+    width: 100%;
+    height: 700px;
+}
+
+.transit-baslik {
+    margin-top: 15px;
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.baslik-text {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: rgb(1, 1, 90);
+}
+
+.buton-container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.buton {
+    margin-right: 15px;
+    width: 130px;
+    background-color: rgb(1, 1, 63);
+    color: #fff;
+    height: 50px;
+    border: 0;
+}
+
+.motor-container {
+    padding: 15px;
+    width: 100%;
+    height: 500px;
+
+    margin-top: 50px;
+}
+
+.motor-container-gizle {
+    display: none;
+    padding: 15px;
+    width: 100%;
+    height: 500px;
+
+    margin-top: 50px;
+}
+
+.container-text {
+    font-size: 33px;
+}
+
+.buton-box {
+    width: 100%;
+    height: 450px;
+    display: flex;
+}
+
+.buton-image-box {
+    width: 50%;
+    height: 100%;
+    background-color: navy;
+}
+
+.buton-text-box {
+    text-align: center;
+    padding: 35px;
+    width: 50%;
+    height: 100%;
+
+    color: rgb(1, 1, 90);
+}
+
+.konfor-container {
+    display: none;
+    padding: 15px;
+    width: 100%;
+    height: 500px;
+
+    margin-top: 50px;
+}
+
+.konfor-container-gizle {
+    display: none;
+
+}
+
+.guvenlik-container {
+    display: none;
+    padding: 15px;
+    width: 100%;
+    height: 500px;
+
+    margin-top: 50px;
+}
+
+.konfor-container-gizle {
+    display: none;
+
+}
+
+.card-box {
+    height: 750px;
+    width: 100%;
+    background-color: #dddbdb;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+.card-sol {
+    width: 450px;
+    height: 650px;
+    margin-right: 50px;
+    -webkit-box-shadow: 0px 17px 20px 7px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 0px 17px 20px 7px rgba(0, 0, 0, 0.65);
+    box-shadow: 0px 17px 20px 7px rgba(0, 0, 0, 0.65);
+}
+
+.card-sag {
+
+    width: 450px;
+    height: 650px;
+    border: 1px solid #010746;
+    -webkit-box-shadow: 0px 17px 20px 7px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 0px 17px 20px 7px rgba(0, 0, 0, 0.65);
+    box-shadow: 0px 17px 20px 7px rgba(0, 0, 0, 0.65);
+
+}
+
+.card-image-box {
+    width: 100%;
+    height: 300px;
+
+}
+
+.card-text-box {
+    width: 100%;
+    height: 350px;
+    background-color: rgb(223, 219, 219);
+    padding: 25px;
+}
+
+.card-text-box p {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width:600px){
+    .buton-box {
+        width: 100%;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buton-image-box {
+        width: 100%;
+        height: 100%;
+        background-color: navy;
+    }
+
+    .buton-text-box {
+        text-align: center;
+        padding: 35px;
+        width: 100%;
+        height: 100%;
+
+        color: rgb(1, 1, 90);
+    }
+
+    .container-text {
+        font-size: 17px;
+    }
+
+    .buton {
+
+        width: 100px;
+        background-color: rgb(1, 1, 63);
+        color: #fff;
+        height: 50px;
+        border: 0;
+    }
+
+    .card-box {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+
+
+    .card-sol {
+        margin: auto;
+        margin-bottom: 15px;
+        width: 75%;
+    }
+
+    .card-sag {
+        margin: auto;
+        width: 75%;
+    }
+
+    .card-text-box {
+        width: 100%;
+        height: 350px;
+        background-color: rgb(223, 219, 219);
+        padding: 22px;
+    }
+
+    .card-text-box p {
+        font-size: 13px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:768px){
+    .buton-box {
+        width: 100%;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buton-image-box {
+        width: 100%;
+        height: 100%;
+        background-color: navy;
+    }
+
+    .buton-text-box {
+        text-align: center;
+        padding: 35px;
+        width: 100%;
+        height: 100%;
+
+        color: rgb(1, 1, 90);
+    }
+
+    .container-text {
+        font-size: 15px;
+    }
+
+    .buton {
+
+        width: 100px;
+        background-color: rgb(1, 1, 63);
+        color: #fff;
+        height: 50px;
+        border: 0;
+    }
+
+    .card-box {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+
+
+    .card-sol {
+        margin: auto;
+        margin-bottom: 15px;
+        width: 75%;
+    }
+
+    .card-sag {
+        margin: auto;
+        width: 75%;
+    }
+
+    .card-text-box {
+        width: 100%;
+        height: 350px;
+        background-color: rgb(223, 219, 219);
+        
+    }
+
+    .card-text-box p {
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .card-box {
+       
+        padding: 15px;
+    }
+    .card-text-box p {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .container-text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .container-text {
+        font-size: 25px;
+    }
+}

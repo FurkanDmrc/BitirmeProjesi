@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bayiler.css">
+    <title>Ford Bayileri</title>
+</head>
+
+<body>
+
+    <h2>Bayilerimiz</h2><br>
+
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Şehir Giriniz"
+        title="Aramak istediğinz kelimeyi yazınız"> <!--Arama yaptığımız yer-->
+
+    <table id="myTable"> <!--Tablomuzun ismi-->
+        <tr class="header">
+            <th style="width:60%;">Şehir</th>
+            <th style="width:40%;">Adres</th>
+        </tr>
+        <tr>
+            <td>Adana (GİZERLER)</td>
+            <td>Levent Mah. Eski Ceyhan Yolu Üzeri 5. Km No:210 Yüreğir/Adana
+
+                YUREGIR
+
+                ADANA</td>
+        </tr>
+        <tr>
+            <td>Adana (OTOKOÇ TARSUS)</td>
+            <td>Yunus Emre Mah. (Yeni Meyve-Sebze Hali Karşısı) No:60 Tarsus/İçel
+
+                TARSUS
+
+                MERSİN</td>
+        </tr>
+        <tr>
+            <td>Adana (ERGİN)</td>
+            <td>Gazi Mustafa Kemal Bulvarı No:255 Yenişehir/İçel
+
+                YENISEHIR
+
+                MERSİN</td>
+        </tr>
+        <tr>
+            <td>Kocaeli (ESOTO)</td>
+            <td>Sanayi Mah. D-130 Yanyol Cad. No:79 Merkez/Kocaeli
+
+                KOCAELI
+
+                KOCAELİ</td>
+        </tr>
+        <tr>
+            <td>Kocaeli (AKGÜN)</td>
+            <td>Hanlı Mahallesi Eskişehir Caddesi No:93 Arifiye/Sakarya
+
+                ARIFIYE
+
+                SAKARYA</td>
+        </tr>
+        <tr>
+            <td>Samsun (OTOKOÇ SAMSUN)</td>
+            <td>Samsun-Trabzon Karayolu 10.Km Kutlukent,Tekkeköy/Samsun
+
+                TEKKEKOY
+
+                SAMSUN</td>
+        </tr>
+        <tr>
+            <td>Tokat (ORUÇLAR)</td>
+            <td>Turhal Yolu Üzeri Sanayi Bitişiği Merkez/Tokat
+
+                TOKAT
+
+                TOKAT</td>
+        </tr>
+        <tr>
+            <td>Sivas (KURT OTO)</td>
+            <td>Yeşilyurt mah. Sultanşehir Blv. No:146 Merkez/Sivas
+
+                SIVAS
+
+                SİVAS</td>
+        </tr>
+        <tr>
+            <td>Ankara (TUR OTO MALTEPE)</td>
+            <td>Celal Bayar Blv. Ali Suavi Sok. No:5 Maltepe/Ankara
+
+                ÇANKAYA
+
+                ANKARA</td>
+        </tr>
+        <tr>
+            <td>Kütahya (OTOKOÇ KÜTAHYA)</td>
+            <td>Eskişehir yolu 3.km No:29/1 Kütahya
+
+                KUTAHYA
+
+                KÜTAHYA</td>
+        </tr>
+        <tr>
+            <td>Ankara (TAN OTO)</td>
+            <td>Fatih Sultan Mehmet Bulvarı No:252 Macunköy,Yenimahalle/Ankara
+
+                YENİMAHALLE
+
+                ANKARA</td>
+        </tr>
+        <tr>
+            <td>İzmir (OTOKOÇ İZMİR)</td>
+            <td>Kazım Dirik Mah. 296. Sokak No:1 Bornova/İzmir
+
+                BORNOVA
+
+                İZMİR</td>
+        </tr>
+        <tr>
+            <td>İzmir (İZKAR)</td>
+            <td>Akçay Cad. No:49 Gaziemir/İzmir
+
+                GAZİEMİR
+
+                İZMİR</td>
+        </tr>
+        <tr>
+            <td>Hatay (OVALI ANTAKYA)</td>
+            <td>İskenderun Yolu Üzeri 5. Km Antakya/Hatay
+
+                HATAY (ANTAKYA)
+
+                HATAY</td>
+        </tr>
+        <tr>
+            <td>Çanakkale (ARSLANLAR)</td>
+            <td>İzmir Yolu 5. Km Merkez/Çanakkale
+
+                CANAKKALE
+
+                ÇANAKKALE</td>
+        </tr>
+        <tr>
+            <td>Mersin (ERGİN)</td>
+            <td>Gazi Mustafa Kemal Bulvarı No:255 Yenişehir/İçel
+
+                YENISEHIR
+
+                MERSİN</td>
+        </tr>
+        <tr>
+            <td>İstanbul (KAR OTOMOTİV)</td>
+            <td>Defterdar Mah. Fethi Çelebi Cad. No:23/1 Eyüp/İstanbul
+
+                EYÜP
+
+                İSTANBUL</td>
+        </tr>
+        <tr>
+            <td>İstanbul (TEPRETOĞULLARI)</td>
+            <td>Acıbadem Mah. Köftüncü Sokak No:1/3 Kadıköy/İstanbul
+
+                KADIKÖY
+
+                İSTANBUL</td>
+        </tr>
+        <tr>
+            <td>Bolu (GÖRÜR DÜZCE)</td>
+            <td>Taşköprü Köyü E-5 Mahallesi No:55 Düzce
+
+                DUZCE
+
+                DÜZCE</td>
+        </tr>
+        <tr>
+            <td>İstanbul (OTOKOÇ İSTANBUL-ANADOLU ATAŞEHİR)</td>
+            <td>Kayışdağı Cd. No:3 Flora Plaza Küçükbakkalköy,Ataşehir/İstanbul
+
+                ATAŞEHİR
+
+                İSTANBUL</td>
+        </tr>
+        <tr>
+            <td>Antalya (OTOKOÇ ANTALYA)</td>
+            <td>Altınova Sinan Mah. Havaalanı Yolu Üzeri Merkez/Antalya
+
+                ANTALYA
+
+                ANTALYA</td>
+        </tr>
+        <tr>
+            <td>Rize (ATILGAN RİZE)</td>
+            <td>Cumhuriyet Çay Fabrikası Karşısı Gündoğdu/Rize
+
+                GUNDOGDU
+
+                RİZE</td>
+        </tr>
+        <tr>
+            <td>Manisa (ÇETAŞ MANİSA)</td>
+            <td>Güzelyurt Mah. Menemen Cad. No:15/A Manisa
+
+                MANISA
+
+                MANİSA</td>
+        </tr>
+        <tr>
+            <td>Trabzon (TUNALAR)</td>
+            <td>Tunalar Ford Plaza Yıldızlı/Trabzon
+
+                TRABZON</td>
+        </tr>
+        <tr>
+            <td>Giresun (USTALAR TİCARET)</td>
+            <td>Sanayi Sitesi 1. Blok No:1 Merkez/Giresun
+
+                GİRESUN</td>
+        </tr>
+        <tr>
+            <td>Malatya (AKKÖPRÜLÜ VAN)</td>
+            <td>Şabaniye Mah. İpekyolu 4. Km Merkez/Van
+
+                VAN
+
+                VAN</td>
+        </tr>
+        <tr>
+            <td>Van (USTALAR TİCARET)</td>
+            <td>Sanayi Sitesi 1. Blok No:1 Merkez/Giresun
+
+                GİRESUN</td>
+        </tr>
+        <tr>
+            <td>Aydın (ZAFER)</td>
+            <td>Aydın-İzmir Karayolu 1.Km (Aymas Bitişiği) Efeler/Aydın
+
+                AYDIN
+
+                AYDIN</td>
+        </tr>
+        <tr>
+            <td>Aydın (YARGÜL)</td>
+            <td>Akçeşme Mevkii Menderes Bulvarı No:161 Gümüşler/Denizli
+
+                DENİZLİ</td>
+        </tr>
+        <tr>
+            <td>Balıkesir (AKOTO MERKEZ)</td>
+            <td>İzmir Yolu 8. Km OSB Kavşağı Merkez Balıkesir
+
+                BALIKESIR
+
+                BALIKESİR</td>
+        </tr>
+        <tr>
+            <td>Bursa (SÖNMEZ KOÇ)</td>
+            <td>Yeni Yalova Yolu 9.Km Sönmez Asf. Karşısı Merkez/Bursa
+
+                BURSA
+
+                BURSA</td>
+        </tr>
+        <tr>
+            <td>Bursa (OTOKOÇ BURSA)</td>
+            <td>29 Ekim Mah. İzmir Yolu Cad. No:380/A Nilüfer/Bursa
+
+                NİLÜFER
+
+                BURSA</td>
+        </tr>
+        <tr>
+            <td>Konya (OTOKOÇ KONYA)</td>
+            <td>İstanbul Yolu Üzeri Sancak Mah. Büyükırmak Sk. No:3 Selçuklu Merkez/Konya
+
+                KONYA
+
+                KONYA</td>
+        </tr>
+        <tr>
+            <td>Muş (AKKÖPRÜLÜ TATVAN)</td>
+            <td>Karşıyaka Mahallesi Bitlis Yolu Üzeri Rahva Düzü 2. Km Tatvan Bitlis
+
+                TATVAN
+
+                BİTLİS</td>
+        </tr>
+        <tr>
+            <td>Düzce (AZİM MERKEZ)</td>
+            <td>Muammer Aksoy Cad. No:38 Karadeniz Ereğli/Zonguldak
+
+                KARADENIZ EREGLI
+
+                ZONGULDAK</td>
+        </tr>
+        <tr>
+            <td>Diyarbakır (DİYARBAKIR OTO)</td>
+            <td>Şanlıurfa Yolu Üzeri 4 Km. Merkez/Diyarbakır
+
+                DIYARBAKIR
+
+                DİYARBAKIR</td>
+        </tr>
+        <tr>
+            <td>Burdur (MEÇİKOĞULLARI BURDUR)</td>
+            <td>Sanayi Merkez, Isparta
+
+                ISPARTA
+
+                ISPARTA</td>
+        </tr>
+        <tr>
+            <td>Adıyaman (İNTERTEKS)</td>
+            <td>Adıyaman Gölbaşı Karayolu Üzeri Küçük Sanayi Sitesi Karşısı Merkez/Adıyaman
+
+                ADIYAMAN
+
+                ADIYAMAN</td>
+        </tr>
+
+        <tr>
+            <td>Edirne (TUZCULAR MERKEZ)</td>
+            <td>Ford Plaza İstanbul Yolu 7. Km Merkez/Edirne
+
+                EDIRNE
+
+                EDİRNE</td>
+        </tr>
+        <tr>
+            <td>Kayseri (METİN TAŞIT)</td>
+            <td>Konaklar Mevkii Sivas Cad.No:244 Kayseri
+
+                MELIKGAZI
+
+                KAYSERİ</td>
+        </tr>
+        <tr>
+            <td>Muğla (HELVACIOĞLU MERKEZ)</td>
+            <td>Orhaniye Mah. Uğur Mumcu Bulvarı No:17 Merkez/Muğla
+
+                MUGLA
+
+                MUĞLA</td>
+        </tr>
+        <tr>
+            <td>Yalova (NAZER)</td>
+            <td>Köşklüçeşme Mah.İstanbul Cad.E-5 Yan yol üzeri Gebze/Kocaeli
+
+                GEBZE
+
+                KOCAELİ</td>
+        </tr>
+        <tr>
+            <td>Yozgat (EVLÜCE OTO)</td>
+            <td>Ankara Asfaltı 7.Km Merkez/Çorum
+
+                CORUM
+
+                ÇORUM</td>
+        </tr>
+        <tr>
+            <td>Isparta (MEÇİKOĞULLARI BURDUR)</td>
+            <td>Sanayi Merkez, Isparta
+
+                ISPARTA
+
+                ISPARTA</td>
+        </tr>
+        <tr>
+            <td>Ordu (EVLÜCE OTO)</td>
+            <td>Cumhuriyet Mah. Mustafa Kemal Bulvarı No:102 Merkez/Ordu
+
+                ORDU
+
+                ORDU</td>
+        </tr>
+        <tr>
+            <td>İstanbul (GÜRBAŞLAR)</td>
+            <td>Göztepe Mah. Atatürk Cad. No:12 Migros karşısı A.Hisarı/İstanbul
+
+                BEYKOZ
+
+                İSTANBUL</td>
+        </tr>
+        <tr>
+            <td>İstanbul (AYDOĞANLAR)</td>
+            <td>Basın Ekspres Yolu Kavak Sokak Ser Plaza No: 3 Yenibosna/İstanbul
+
+                BAHÇELİEVLER
+
+                İSTANBUL</td>
+        </tr>
+        <tr>
+            <td>İstanbul (KENT OTOMOTİV)</td>
+            <td>Saadetdere Mah.68. Sok. No:40 Esenyurt/İstanbul
+
+                ESENYURT
+
+                İSTANBUL</td>
+        </tr>
+
+        <tr>
+            <td>Eskişehir (OTOKOÇ ESKİŞEHİR)</td>
+            <td>Şirintepe Mh. İsmet İnönü 2. Cad. No:64 Tepebaşı Merkez/Eskişehir
+
+                ESKISEHIR
+
+                ESKİŞEHİR</td>
+        </tr>
+
+        <tr>
+            <td>İstanbul (KENT OTOMOTİV)</td>
+            <td>Saadetdere Mah.68. Sok. No:40 Esenyurt/İstanbul
+
+                ESENYURT
+
+                İSTANBUL</td>
+        </tr>
+    </table>
+
+
+    <script>
+        function myFunction() {
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("myTable");
+            tr = table.getElementsByTagName("tr");
+            for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[0];
+                if (td) {
+                    txtValue = td.textContent || td.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+        }
+    </script>
+
+</body>
+
+</html>

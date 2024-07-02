@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-link {
+    letter-spacing: 3px;
+    font-family: "Nunito", sans-serif;
+    color: #010746;
+}
+
+.nav-link:hover {
+    color: #0dc6d1;
+    border-bottom: 1.5px solid #1C6EA4;
+}
+
+a {
+    text-decoration: none;
+}
+
+.secim-container {
+
+    height: 750px;
+    height: 800px;
+    background-color: rgb(240, 238, 237);
+    display: flex;
+}
+
+.sol-kutu {
+
+    padding: 15px;
+    display: flex;
+    width: 50%;
+    height: 100%;
+
+    align-items: center;
+}
+
+.sag-kutu {
+    padding: 15px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+
+    align-items: center;
+}
+
+
+.sol-image-box {
+    border-radius: 15px;
+    border: 1px solid black;
+    width: 100%;
+    height: 70%;
+    background-image: url(images/Courier.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: all 1s;
+
+}
+
+.sag-image-box {
+    border-radius: 15px;
+    border: 1px solid black;
+    width: 100%;
+    height: 70%;
+    background-image: url(images/transitbir.webp);
+    background-position: center;
+    background-size: cover;
+    transition: all 1s;
+}
+
+.sag-image-box:hover {
+    background-image: url(images/transitiki.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.sol-image-box:hover {
+    background-image: url(images/Courier.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.courier-text {
+    color: #fff;
+    text-align: center;
+    margin-top: 25%;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 15px;
+}
+
+.transit-text {
+    color: #fff;
+    text-align: center;
+    margin-top: 25%;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 15px;
+}
+
+h3 a {
+    color: #fff;
+}
+
+
+
+
+@media screen and (max-width:992px) {
+
+    .sag-image-box {
+        width: 100%;
+
+    }
+
+    .sol-image-box {
+        width: 100%;
+    }
+
+    .secim-container {
+        margin-top: 50px;
+        height: 1500px;
+
+        display: block;
+    }
+
+    .sol-kutu {
+
+        padding: 15px;
+        display: flex;
+        width: 100%;
+        height: 50%;
+
+        align-items: center;
+    }
+
+
+
+    .sag-kutu {
+        padding: 15px;
+        width: 100%;
+        height: 50%;
+        display: flex;
+
+        align-items: center;
+    }
+
+}
+
+footer {
+    margin-top: 50px;
+    padding-top: 25px;
+    width: 100%;
+    display: flex;
+    background-color: #020947;
+}
+
+.footer-model {
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+}
+
+.footer-hakkinda {
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+}
+
+.sosyal-medya {
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+}
+
+.footer-list {
+    margin-top: 15px;
+    list-style: none;
+}
+
+.footer-list a {
+    color: #fff;
+}
+
+footer h4 {
+    margin-left: 20px;
+    color: #fff;
+}
+
+.sosyal-list li {
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.sosyal-buton {
+    padding: 5px;
+    font-size: 25px;
+    color: #00095b;
+    border-color: white;
+    border-radius: 50%;
+
+}
+
+@media screen and (max-width:550px) {
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
